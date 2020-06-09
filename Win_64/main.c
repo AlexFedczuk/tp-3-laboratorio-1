@@ -3,6 +3,7 @@
 #include "LinkedList.h"
 #include "Controller.h"
 #include "Employee.h"
+#include "funcionesTP3.h"
 
 /****************************************************
     Menu:
@@ -22,14 +23,50 @@
 int main()
 {
     int option = 0;
+
     LinkedList* listaEmpleados = ll_newLinkedList();
-    do{
+
+    do
+    {
+        option=mostrarMenuPrincipal();
         switch(option)
         {
             case 1:
                 controller_loadFromText("data.csv",listaEmpleados);
                 break;
+
+            case 2:
+                break;
+
+            case 3:
+                break;
+
+            case 4:
+                break;
+
+            case 5:
+                break;
+
+            case 6:
+                break;
+
+            case 7:
+                break;
+
+            case 8:
+                break;
+
+            case 9:
+                break;
+
+            default :
+                break;
         }
-    }while(option != 10);
+
+        system("pause");
+        system("cls");
+    }
+    while(option != 10);
+
     return 0;
 }
