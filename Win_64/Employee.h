@@ -6,10 +6,11 @@ typedef struct
     char nombre[128];
     int horasTrabajadas;
     int sueldo;
-}Employee;
 
-Employee* employee_new();
-Employee* employee_newParametros(char* idStr,char* nombreStr,char* horasTrabajadasStr);
+}eEmployee;
+
+eEmployee* employee_new();
+eEmployee* employee_newParametros(char* idStr,char* nombreStr,char* horasTrabajadasStr);
 void employee_delete();
 
 int employee_setId(Employee* this,int id);

@@ -43,7 +43,18 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="Employee.h" />
+		<Unit filename="LinkedList.a" />
 		<Unit filename="LinkedList.h" />
+		<Unit filename="PruebaStatic.depend" />
+		<Unit filename="PruebaStatic.layout" />
+		<Unit filename="TP3.cbp" />
+		<Unit filename="TP3.depend" />
+		<Unit filename="TP3.layout" />
+		<Unit filename="data.csv" />
+		<Unit filename="funcionesTP3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="funcionesTP3.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

@@ -5,6 +5,8 @@
 #include "Employee.h"
 #include "funcionesTP3.h"
 
+#define TAM 1000
+
 /****************************************************
     Menu:
      1. Cargar los datos de los empleados desde el archivo data.csv (modo texto).
@@ -66,7 +68,7 @@ int main()
         system("pause");
         system("cls");
     }
-    while(option != 10);
+    while(option!=10);
 
     return 0;
 }
